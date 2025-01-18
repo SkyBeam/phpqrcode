@@ -326,3 +326,5 @@
 	// free memory
 	imagedestroy($qrcode);
 	imagedestroy($stamp);
+	// Clean temporary file.
+	unlink($pngAbsoluteFilePath);
